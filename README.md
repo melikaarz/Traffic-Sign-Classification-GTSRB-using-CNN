@@ -68,6 +68,3 @@ The model achieved the following accuracy scores:
 * **Test Accuracy:** ~95.2% (measured using `scikit-learn`'s `accuracy_score`)
 
 The learning curves indicate effective learning and generalization without significant overfitting.
-
-
-کافیست این متن را کپی کرده و در یک فایل با نام `README.md` در پروژه خود ذخیره کنید. برای نمایش عکس در بخش مدل، فقط باید مسیر `images/model_architecture.png` را به آدرس عکسی که می‌خواهید قرار دهید، تغییر دهید.
