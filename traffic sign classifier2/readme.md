@@ -26,10 +26,14 @@ Execute the cells sequentially.
 This model utilizes a deep architecture with stacked convolutional layers and batch normalization to reduce internal covariate shift.
 
 Block 1 (32 filters): Two Conv2D layers + BatchNormalization + ReLU + MaxPooling2D + Dropout.
+
 Block 2 (64 filters): Two Conv2D layers + BatchNormalization + ReLU + MaxPooling2D + Dropout.
+
 Block 3 (128 filters): Two Conv2D layers + BatchNormalization + ReLU + MaxPooling2D + Dropout.
+
 Classifier: Flatten + Dense(512) + BatchNormalization + Dropout + Dense(43, Softmax).
-Model Summary
+
+## Model Summary
 
 Layer (type)	Output Shape	Param #
 InputLayer	(None, 32, 32, 3)	0
