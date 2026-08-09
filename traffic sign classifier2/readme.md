@@ -37,11 +37,11 @@ This model utilizes a deep architecture with stacked convolutional layers and ba
 | Layer (type) | Output Shape | Param # |
 | :--- | :--- | :--- |
 InputLayer | `(None, 32, 32, 3) ` |	0
-Block 1 |  (Conv2D x2) 	|  `(None, 32, 32, 32) ` | 10,272
-Block 2 |(Conv2D x2) |  `(None, 16, 16, 64) ` | 55,936
-Block 3 | (Conv2D x2)|  `(None, 8, 8, 128 ` | 222,080
+Block 1  (Conv2D x2) 	|  `(None, 32, 32, 32) ` | 10,272
+Block 2 (Conv2D x2) |  `(None, 16, 16, 64) ` | 55,936
+Block 3 (Conv2D x2)|  `(None, 8, 8, 128 ` | 222,080
 Dense (512)	|  `(None, 512) ` | 1,049,088
-Output | (Dense 43)	|  `(None, 43) ` | 22,059
+Output (Dense 43)	|  `(None, 43) ` | 22,059
 
 ## Training Configuration
 * **Optimizer:** Adam (with learning rate scheduling, reduced to `1.2500e-04` by the end of training)
