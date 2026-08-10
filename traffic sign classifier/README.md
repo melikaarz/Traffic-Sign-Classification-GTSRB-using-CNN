@@ -1,7 +1,7 @@
 # Traffic Sign Classification using CNN
 
 This project implements a Convolutional Neural Network (CNN) to classify traffic signs using TensorFlow and Keras.
-
+![Dataset Image](classes.jpg)
 ## Dataset
 The model is trained on the **German Traffic Sign Recognition Benchmark (GTSRB)** dataset.
 * **Classes:** 43 different traffic sign classes.
